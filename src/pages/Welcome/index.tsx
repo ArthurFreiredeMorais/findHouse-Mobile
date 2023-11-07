@@ -34,6 +34,13 @@ export default function Main() {
           >
             <Text style={Styles.textButton}>Register</Text>
           </TouchableOpacity>
+
+          <TouchableOpacity
+            style={Styles.buttonProfile}
+            onPress={() => navigation.navigate("Profile" as never)}
+          >
+            <Text style={Styles.textButton}>Profile</Text>
+          </TouchableOpacity>
         </View>
       </ImageBackground>
     </View>

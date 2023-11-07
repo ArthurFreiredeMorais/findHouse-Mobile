@@ -36,6 +36,17 @@ const Styles = StyleSheet.create({
     fontFamily: "Montserrat_700Bold",
     fontSize: 16,
   },
+  buttonProfile: {
+    width: "95%",
+    height: 53,
+    backgroundColor: "rgba(255, 255, 255, 0.4)",
+    borderRadius: 20,
+    padding: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    fontFamily: "Montserrat_700Bold",
+    fontSize: 16,
+  },
   textButton: {
     fontFamily: "Montserrat_700Bold",
     fontSize: 17,
